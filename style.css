@@ -1,0 +1,46 @@
+body {
+    background-color: lavenderblush;
+    padding: 30px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    color: rgb(52,52,52);
+    line-height: 1.5;
+}
+
+h1,
+h2 {
+    color: lightskyblue;
+    padding-top: 1em;
+    }
+
+h2 {
+    margin-top: 10px;
+}
+
+img {
+    border-radius: 50%;
+    border: 7px double lightblue;
+    min-height: 20vh;
+    float: right;
+    padding: 3px;
+    margin: 50px;
+}
+
+a {
+    color: rgb(32,32,32);
+    background-color: #ffd0d7;
+    font-size: larger;
+    text-decoration: none;
+    padding: 2%;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+a:hover,
+a:focus,
+a:active {
+    background-color: mintcream;
+}
