@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +11,26 @@
     <title>Vizitka</title>
 </head>
 <body>
-    <div class="grid">
+    <header>
+        <h1>Jana Pavlíčková</h1>
+        <nav>
+            <ul>
+                <li class="navigace">
+                    <a href="index.html">O mně</a>
+                </li>
+                <li class="navigace">
+                    <a href="fotogalerie.html">Fotogalerie</a>
+                </li>
+                <li class="navigace">
+                    <a href="index.html#kontakt">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="grid section">
         <div class="col-8">
-            <h1>Jana Pavlíčková</h1>
+            <h2>O mně</h2>
             <p>Je mi 23 let a aktuálně dokončuju na dálku magistra v oboru Business & Management na britské univerzitě.</p>
             <p>Baví mě:
                 <ul>
@@ -25,16 +42,20 @@
             </p>
             <p>Těším se na další lekce!</p>
         </div>
-        <div class="col-4">
+        <div class="col-4 profilove-foto">
             <img src="foto.jpg" alt="profilový obrázek" width="250px">
         </div>
     </div>
-    <div>
+    <div id="kontakt" class="section pozadi-kontakt">
         <h2>Kontakt</h2>
         <a href="https://github.com/jPavlickova" target="_blank">GitHub</a>
         <a href="mailto:pavlickovajj@gmail.com" target="_blank">E-mail</a>
         <a href="https://www.facebook.com/jana.p.pavlickova/" target="_blank">Facebook</a>
     </div>
+
+    <footer>
+        <p>Jana Pavlíčková, 2021</p>
+    </footer>
 </body>
 </html>
 
